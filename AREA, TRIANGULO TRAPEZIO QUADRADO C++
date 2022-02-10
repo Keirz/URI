@@ -1,0 +1,25 @@
+#include <iostream>
+#include<bits/stdc++.h>
+ 
+using namespace std;
+ 
+int main() {
+ double A,B,C;
+ double pi=3.14159,tri,qua,cri,tra,ret;
+ cin>>A>>B>>C;
+ tri=0.5*A*C;
+ cri=pi*(C*C);
+ qua=B*B;
+ ret=A*B;
+ tra=((A+B)/2*C);
+ 
+ cout<<fixed;
+ cout<<setprecision(3)<<"TRIANGULO: "<<tri<<endl;
+ cout<<setprecision(3)<<"CIRCULO: "<<cri<<endl;
+ cout<<setprecision(3)<<"TRAPEZIO: "<<tra<<endl;
+ cout<<setprecision(3)<<"QUADRADO: "<<qua<<endl;
+ cout<<setprecision(3)<<"RETANGULO: "<<ret<<endl;
+ 
+ 
+    return 0;
+}
