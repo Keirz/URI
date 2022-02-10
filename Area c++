@@ -1,0 +1,15 @@
+#include <iostream>
+#include<bits/stdc++.h> 
+#include<math.h>
+
+using namespace std;
+ 
+int main() {
+ int R;
+ cin>>R;
+ double X;
+ X=(4.0/3*3.14159*R*R*R);
+    cout<<fixed;
+    cout<<setprecision(3)<<"VOLUME = "<<X<<endl;
+    return 0;
+}
